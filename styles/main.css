@@ -1,27 +1,33 @@
 html, body {
   height: 100%;
   margin: 0;
-}
-
-.container{
-height: 100%;
-width: 100%;
-color: lightgray;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
+  background:	#DCDCDC;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .main{
-  height: 45%;
-  width: 40%;
-  background: lightblue;
+  margin: auto;
+  height: 40%;
+  width: 35%;
+}
+
+.main .background-image{
+height: 100%;
+width: 100%;
 }
 
 .content{
-  height: 60%;
-  width: 40%;
-  background: lightcoral;
+  margin: auto;
+  height: 65%;
+  width: 35%;
+  background: white;
   border-radius:20px 20px 0px 0px;
   margin-top: -40px;
+}
+
+.title{
+  margin-top: 20px;
+  font-size:  50px;
+  color: rgb(75,0,130);
+  margin-left: 10%;
 }
