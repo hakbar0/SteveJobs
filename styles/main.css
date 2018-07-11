@@ -25,9 +25,46 @@ width: 100%;
   margin-top: -40px;
 }
 
-.title{
-  margin-top: 20px;
-  font-size:  50px;
-  color: rgb(75,0,130);
-  margin-left: 10%;
+.header{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
+
+.title{
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size:  60px;
+  color: rgb(75,0,130);
+}
+.dots{
+  display: flex;
+  align-items: center;
+    font-size:  60px;
+  color: rgb(75,0,130);
+}
+
+.inside-dots{
+  height: 100%;
+  width: 100%;
+}
+
+.glyphicon, .follow{
+  color:  rgb(75,0,130);
+  font-size: 20px;
+}
+
+.key{
+  color:  rgb(75,0,130);
+  font-size: 33px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.patents-number, .followers-number, .following-number, .patents, .followers, .following{
+  width: 30%;
+}
+
