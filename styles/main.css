@@ -3,12 +3,13 @@ html, body {
   margin: 0;
   background:	#DCDCDC;
   font-family: 'Source Sans Pro', sans-serif;
+  color:  rgb(75,0,130);
 }
 
 .main{
   margin: auto;
-  height: 40%;
-  width: 35%;
+  height: 30%;
+  width: 600px;
 }
 
 .main .background-image{
@@ -18,8 +19,8 @@ width: 100%;
 
 .content{
   margin: auto;
-  height: 65%;
-  width: 35%;
+  height: 650px;
+  width: 600px;
   background: white;
   border-radius:20px 20px 0px 0px;
   margin-top: -40px;
@@ -36,13 +37,11 @@ width: 100%;
   margin-left: 10px;
   margin-top: 20px;
   font-size:  60px;
-  color: rgb(75,0,130);
 }
 .dots{
   display: flex;
-  align-items: center;
-    font-size:  60px;
-  color: rgb(75,0,130);
+  margin-top: 30px;
+  font-size:  30px;
 }
 
 .inside-dots{
@@ -51,13 +50,12 @@ width: 100%;
 }
 
 .glyphicon, .follow{
-  color:  rgb(75,0,130);
   font-size: 20px;
+  margin-left: 80px;
 }
 
 .key{
-  color:  rgb(75,0,130);
-  font-size: 33px;
+  font-size: 25px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -68,3 +66,39 @@ width: 100%;
   width: 30%;
 }
 
+
+
+.patents, .followers, .following{
+  margin-top: -10px;
+font-size: 17px;
+}
+
+.categories{
+  font-size: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.devices, .design, .transportation{
+  font-size: 26px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.arrows{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.glyphicon-menu-right{
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+hr{
+  width: 580px;
+  height: 1px;
+  background-color:  rgb(75,0,130);
+  border: 0;
+  margin-bottom: 20px;
+}
