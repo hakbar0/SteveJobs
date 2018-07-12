@@ -8,13 +8,24 @@ html, body {
 
 .main{
   margin: auto;
-  height: 30%;
+  height: 40%;
   width: 600px;
+  color: white;
+  margin-top:10px;
+  margin-bottom: 20px;
 }
 
 .main .background-image{
-height: 100%;
-width: 100%;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position:30% 10%;
+  }
+
+.back{
+  font-size: 25px;
+  margin-top: -290px;
+  margin-left: -60px;
 }
 
 .content{
@@ -44,14 +55,27 @@ width: 100%;
   font-size:  30px;
 }
 
-.inside-dots{
-  height: 100%;
-  width: 100%;
-}
-
 .glyphicon, .follow{
   font-size: 20px;
   margin-left: 80px;
+}
+
+.plus, .follow{
+  display:inline;
+}
+
+.plus{
+  margin-left: 80px;
+  border-style: solid;
+  display: inline-block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.follow{
+  margin-left: 10px;
 }
 
 .key{
@@ -65,8 +89,6 @@ width: 100%;
 .patents-number, .followers-number, .following-number, .patents, .followers, .following{
   width: 30%;
 }
-
-
 
 .patents, .followers, .following{
   margin-top: -10px;
@@ -101,4 +123,44 @@ hr{
   background-color:  rgb(75,0,130);
   border: 0;
   margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+
+  .main{
+    margin: auto;
+    height: 40%;
+    width: 320px;
+  }
+
+  .content{
+    margin: auto;
+    height: 650px;
+    width: 320px;
+    margin-top: -40px;
+  }
+
+  hr{
+    width: 300px;
+  }
+
+  .main .background-image{
+    background-position:20% 10%;
+    }
+
+    .title{
+      font-size:  35px;
+    }
+
+    .dots{
+      display: flex;
+      margin-top: 25px;
+      font-size:  17.5px;
+    }
+
+    .plus{
+      margin-left: 35px;
+    }
+    
+
 }
